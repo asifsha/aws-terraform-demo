@@ -1,6 +1,6 @@
 #variables.tf
 variable "username" {
-  type = "list"
+  type = list(string)
   default = ["Adam","David","Moses"]
 }
 
