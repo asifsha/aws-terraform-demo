@@ -1,7 +1,7 @@
 provider "aws" {
-  region     = "us-west-2"
-  access_key = "my-access-key"
-  secret_key = "my-secret-key"
+  region     = "us-east-1"
+  access_key = "AWS_ACCESS_KEY_ID"
+  secret_key = "AWS_SECRET_ACCESS_KEY"
 }
 #main.tf
 resource "aws_iam_user" "example" {
